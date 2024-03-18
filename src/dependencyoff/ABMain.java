@@ -2,7 +2,7 @@ package dependencyoff;
 
 public class ABMain {
     public static void main(String[] args) {
-        A a = new A("aField");
+        A a = new A("aClass");
         System.out.println(a.aField);
         System.out.println(a.aMethod());
 
